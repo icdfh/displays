@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пример justify-content</title>
+  <style>
+    .container {
+      display: flex;
+      background-color: lightgray;
+      padding: 20px;
+      height: 100vh;
+    }
+
+    .item {
+      background-color: lightblue;
+      padding: 20px;
+      margin: 5px;
+      text-align: center;
+    }
+
+    .flex-start {
+      justify-content: flex-start;
+    }
+
+    .flex-end {
+      justify-content: flex-end;
+    }
+
+    .center {
+      justify-content: center;
+    }
+
+    .space-between {
+      justify-content: space-between;
+    }
+
+    .space-around {
+      justify-content: space-around;
+    }
+
+    .space-evenly {
+      justify-content: space-evenly;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Пример 1: justify-content: flex-start</h2>
+  <div class="container flex-start">
+    <div class="item">Элемент 1</div>
+    <div class="item">Элемент 2</div>
+    <div class="item">Элемент 3</div>
+  </div>
+
+  <h2>Пример 2: justify-content: flex-end</h2>
+  <div class="container flex-end">
+    <div class="item">Элемент 1</div>
+    <div class="item">Элемент 2</div>
+    <div class="item">Элемент 3</div>
+  </div>
+
+  <h2>Пример 3: justify-content: center</h2>
+  <div class="container center">
+    <div class="item">Элемент 1</div>
+    <div class="item">Элемент 2</div>
+    <div class="item">Элемент 3</div>
+  </div>
+
+  <h2>Пример 4: justify-content: space-between</h2>
+  <div class="container space-between">
+    <div class="item">Элемент 1</div>
+    <div class="item">Элемент 2</div>
+    <div class="item">Элемент 3</div>
+  </div>
+
+  <h2>Пример 5: justify-content: space-around</h2>
+  <div class="container space-around">
+    <div class="item">Элемент 1</div>
+    <div class="item">Элемент 2</div>
+    <div class="item">Элемент 3</div>
+  </div>
+
+  <h2>Пример 6: justify-content: space-evenly</h2>
+  <div class="container space-evenly">
+    <div class="item">Элемент 1</div>
+    <div class="item">Элемент 2</div>
+    <div class="item">Элемент 3</div>
+  </div>
+
+</body>
+</html>

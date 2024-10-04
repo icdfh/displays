@@ -1,0 +1,62 @@
+body{
+    min-height: 100vh; 
+    overflow: hidden; 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* Блочные элементы */
+.block-example {
+  display: block; /* Этот элемент занимает всю ширину и начинается с новой строки */
+  width: 100%;
+  background-color: lightgreen;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+/* Строчные элементы */
+.inline-example {
+  display: inline; /* Этот элемент занимает только свою ширину и располагается на одной строке с другими элементами */
+  background-color: lightblue;
+  padding: 5px;
+  margin: 10px;
+}
+
+/* Строчно-блочные элементы */
+.inline-block-example {
+  display: inline-block; /* Этот элемент ведет себя как строчный элемент, но может иметь ширину и высоту, как блочный */
+  width: 150px;
+  height: 100px;
+  background-color: lightcoral;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Элемент, скрытый с помощью display: none */
+.none-example {
+  display: none; /* Этот элемент полностью скрыт и не занимает места на странице */
+  background-color: lightyellow;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Flexbox элемент для базового понимания flex */
+.flex-container {
+  display: flex; /* Этот контейнер использует flexbox для управления размещением внутренних элементов */
+  justify-content: space-between; /* Элементы равномерно распределяются по контейнеру */
+  background-color: lightgray;
+  padding: 10px;
+  position: fixed;
+  width: 100%; /* Футер занимает всю ширину страницы */
+  bottom: 0; /* Прикрепляем его к нижней части окна браузера */
+  flex: 1;
+  left: 0;
+}
+
+.flex-item {
+  background-color: lightpink;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  width: 100px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пример CSS Grid</title>
+  <link href="grid.css" rel="stylesheet" />
+ 
+</head>
+<body>
+ <button style="font-size: 25px; margin-top:10px; margin-left: 1800px; background-color: lightseagreen;  text-decoration: none; border-radius: 15px;  border: 0;"><a href="display.html" style="text-decoration: none; color: white; font-size: 20px;">Displays</a></button>
+  <!-- Первый пример: три колонки с разной шириной -->
+  <h2>Пример 1: Три колонки с разной шириной</h2>
+  <div class="container">
+    <div class="item">Элемент 1</div>
+    <div class="item">Элемент 2</div>
+    <div class="item">Элемент 3</div>
+    <div class="item">Элемент 4</div>
+    <div class="item">Элемент 5</div>
+  </div>
+
+  <!-- Второй пример: элементы занимают несколько колонок и строк -->
+  <h2>Пример 2: Элементы, занимающие несколько колонок и строк</h2>
+  <div class="container">
+    <div class="item item1">Элемент 1 (занимает 2 колонки)</div>
+    <div class="item item2">Элемент 2 (занимает 2 строки)</div>
+    <div class="item">Элемент 3</div>
+    <div class="item">Элемент 4</div>
+  </div>
+
+ 
+  <h2>Пример 3: Галерея с использованием CSS Grid</h2>
+  <div class="gallery">
+    <div class="gallery-item wide">Широкий элемент</div>
+    <div class="gallery-item">Элемент 2</div>
+    <div class="gallery-item">Элемент 3</div>
+    <div class="gallery-item tall">Высокий элемент</div>
+    <div class="gallery-item">Элемент 5</div>
+  </div>
+
+</body>
+</html>
